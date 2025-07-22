@@ -1,0 +1,28 @@
+#container {
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+}
+
+#left-eye {
+    border: 2px solid black;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    clip-path: circle(10px at 50px 40%);
+    margin-top: 34%;
+}
+
+#right-eye {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 50%;
+    clip-path: circle(10px at 60px 10%);
+}
+
+.clip {
+    display: 'flex';
+    flex-direction: 'row';
+    clip-path: polygon(0% 0%, 20% 20%, 80% 20%, 100% 0%, 100% 60%, 70% 100%, 30% 100%, 0% 60%);
+}
